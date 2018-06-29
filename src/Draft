@@ -1,0 +1,8 @@
+ @Override
+    public void mouseClicked(MouseEvent mouseEvent) {
+        super.mouseClicked(mouseEvent);
+
+        if (mouseEvent.getID() == MouseEvent.MOUSE_CLICKED && isGameOver) {
+            System.out.println("Replay");
+        }
+    }
