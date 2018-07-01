@@ -1,8 +1,8 @@
 import acm.program.*;
-import acm.util.SoundClip;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
+import java.io.File;
 
 public class Game extends GraphicsProgram {
 
@@ -17,7 +17,6 @@ public class Game extends GraphicsProgram {
     private GameObject gameOver;
     private GameObject replayBtn;
     private Thread mainThread;
-
 
     // Initializing objects
     @Override
@@ -52,6 +51,10 @@ public class Game extends GraphicsProgram {
 
     // Main game function
     public void run() {
+
+        File currentDirFile = new File(".");
+        String helper = currentDirFile.getAbsolutePath();
+
         //Main game thread
         mainThread.run();
     }
@@ -120,7 +123,6 @@ public class Game extends GraphicsProgram {
         }
     }
 
-
     private void restart() {
 
         try {
@@ -163,7 +165,6 @@ public class Game extends GraphicsProgram {
     public int getGameScore() {
         return score.getScore();
     }
-
 
 
     public class MainLoopThread implements Runnable {
