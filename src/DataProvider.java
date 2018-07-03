@@ -20,20 +20,20 @@ public class DataProvider {
     private static int NUMBER_OF_OBSTACLES = 2;
     private static int GROUND_OBSTACLE_SPEED = 4;
 
-    private static String PLAYER_STATIC_MEDIA_PATH = "D:\\Repositories\\ACM_Java_Main\\res\\static.png";
-    private static String PLAYER_DEAD_MEDIA_PATH = "D:\\Repositories\\ACM_Java_Main\\res\\dead.png";
+    private static String PLAYER_STATIC_MEDIA_PATH = "res/static.png";
+    private static String PLAYER_DEAD_MEDIA_PATH = "res/dead.png";
 
-    private static String GAME_OVER_TEXT = "D:\\Repositories\\ACM_Java_Main\\res\\game_over_text.png";
-    private static String REPLAY_BTN = "D:\\Repositories\\ACM_Java_Main\\res\\replay.png";
+    private static String GAME_OVER_TEXT = "res/game_over_text.png";
+    private static String REPLAY_BTN = "Dres/replay.png";
 
-    private static String DEATH_SOUND = "D:\\Repositories\\ACM_Java_Main\\res\\sound\\hit.wav";
-    private static String JUMP_SOUND = "D:\\Repositories\\ACM_Java_Main\\res\\sound\\jump.wav";
+    private static String DEATH_SOUND = "res/hit.wav";
+    private static String JUMP_SOUND = "res/jump.wav";
 
-    private static String BACKGROUND = "D:\\Repositories\\ACM_Java_Main\\res\\background.jpg";
-    private static String TRIPLE_CACTUS = "D:\\Repositories\\ACM_Java_Main\\res\\triple_multi_cactus.png";
-    private static String SINGLE_CACTUS = "D:\\Repositories\\ACM_Java_Main\\res\\single_big_cactus.png";
-    private static String DOUBLE_CACTUS = "D:\\Repositories\\ACM_Java_Main\\res\\double_big_cactus.png";
-    private static String GROUND_IMG = "D:\\Repositories\\ACM_Java_Main\\res\\ground.png";
+    private static String BACKGROUND = "res/background.jpg";
+    private static String TRIPLE_CACTUS = "res/triple_multi_cactus.png";
+    private static String SINGLE_CACTUS = "res/single_big_cactus.png";
+    private static String DOUBLE_CACTUS = "res/double_big_cactus.png";
+    private static String GROUND_IMG = "res/ground.png";
 
     private static double PLAYER_SCALE = 0.5;
     private static double OBSTACLE_SCALE = 0.5;
@@ -48,14 +48,14 @@ public class DataProvider {
     private static double ACCELERATION = 1.5;
     private static int RUNNING_ANIM_SPEED = 14;
 
-    private static String BIRD_UP = "D:\\Repositories\\ACM_Java_Main\\res\\bird_up.png";
-    private static String BIRD_DOWN = "D:\\Repositories\\ACM_Java_Main\\res\\bird_down.png";
+    private static String BIRD_UP = "res/bird_up.png";
+    private static String BIRD_DOWN = "res/bird_down.png";
 
-    private static String PLAYER_SPRITE_1 = "D:\\Repositories\\ACM_Java_Main\\res\\run1.png";
-    private static String PLAYER_SPRITE_2 = "D:\\Repositories\\ACM_Java_Main\\res\\run2.png";
+    private static String PLAYER_SPRITE_1 = "res/run1.png";
+    private static String PLAYER_SPRITE_2 = "res/run2.png";
 
-    private static String PLAYER_INCLINE_1 = "D:\\Repositories\\ACM_Java_Main\\res\\incline1.png";
-    private static String PLAYER_INCLINE_2 = "D:\\Repositories\\ACM_Java_Main\\res\\incline2.png";
+    private static String PLAYER_INCLINE_1 = "res/incline1.png";
+    private static String PLAYER_INCLINE_2 = "res/incline2.png";
 
     public static ArrayList<String> getPlayerSpriteList() {
         ArrayList<String> sprites = new ArrayList<>();
